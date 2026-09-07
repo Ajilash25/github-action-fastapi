@@ -28,4 +28,5 @@ jobs:
 
       - name: Check FastAPI application
         run: |
+          cd fastapi
           python -c "from main import app; print('FastAPI App Successfully Loaded')"
